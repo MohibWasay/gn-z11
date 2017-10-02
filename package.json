@@ -1,0 +1,44 @@
+{
+  "name": "gn-z11",
+  "version": "1.0.0",
+  "description": "Implementation of statistical and mathematical algorithms in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "pretest": "rm -Rf ./coverage && eslint .",
+    "test": "istanbul cover _mocha -- --compilers js:babel-register test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "build": "webpack -p --config webpack.config.js --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohibWasay/gn-z11"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "webpack",
+    "mocha",
+    "chai",
+    "test",
+    "build",
+    "coverage",
+    "coveralls"
+  ],
+  "author": "Huy T.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohibWasay/gn-z11issues"
+  },
+  "homepage": "https://github.com/MohibWasay/gn-z11#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "eslint": "^3.7.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.1.0",
+    "webpack": "^1.13.2"
+  }
+}
