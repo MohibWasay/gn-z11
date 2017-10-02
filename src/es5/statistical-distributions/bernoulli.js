@@ -4,6 +4,7 @@
  * @constructor
  * @param {Number} theta  - Cost of probability.
  * @param {Boolean} direction  - direction of probability (i.e. true: success, false: failure)
+ *
  * @description - The Bernoulli distribution is a discrete probability distribution in which the
  * random variable can take only two possible values 0 or 1, where 1 is assigned in case of success
  * or occurrence (of the desired event) and 0 on failure or non-occurrence
