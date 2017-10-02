@@ -8,9 +8,9 @@ import * as factorial from './common/factorial';
  * @param {Number} number  - Number of events
  * @param {Number} x       - Number of times
  *
- * @description - The Bernoulli distribution is a discrete probability distribution in which the
- * random variable can take only two possible values 0 or 1, where 1 is assigned in case of success
- * or occurrence (of the desired event) and 0 on failure or non-occurrence
+ * @description - The binomial distribution function specifies the number of times (x)
+ * that an event occurs in n independent trials where p is the probability of the event
+ * occurring in a single trial
  */
 
 function Binomial(theta, number, x) {
